@@ -10,7 +10,7 @@ body {
 /* Header styles */
 header {
   text-align: center;
-  background-color: #0d47a1; /* Dark blue header background color */
+  background-color: #ed5d4f; /* Dark blue header background color */
   padding: 20px;
 }
 
@@ -68,7 +68,7 @@ nav a:hover {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #0d47a1; /* Dark blue color for section titles */
+  color: #ed5d4f; /* Dark blue color for section titles */
 }
 
 /* Table styles */
@@ -80,13 +80,13 @@ table {
 }
 
 th, td {
-  border: 1px solid #0d47a1; /* Dark blue borders for table cells */
+  border: 1px solid #ed5d4f; /* Dark blue borders for table cells */
   padding: 10px;
   text-align: left;
 }
 
 th {
-  background-color: #0d47a1; /* Dark blue background for table header cells */
+  background-color: #ed5d4f; /* Dark blue background for table header cells */
   color: #ffffff; /* White text color for table header cells */
 }
 
@@ -94,4 +94,49 @@ th {
 .emoji {
   margin-right: 5px;
   font-size: 1.2rem;
+}
+/* Reset default styles */
+body, html, footer, p, ul, li {
+  margin: 40;
+  padding: 0;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* Light text color */
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 800px; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+p {
+  margin-bottom: 10px; /* Add some space below the paragraph */
+}
+
+ul.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+ul.footer-links li {
+  display: inline-block;
+  margin-right: 15px; /* Add space between links */
+}
+
+ul.footer-links li:last-child {
+  margin-right: 0; /* Remove right margin from the last link */
+}
+
+ul.footer-links li a {
+  color: #fff; /* Text color for links */
+  text-decoration: none;
+}
+
+ul.footer-links li a:hover {
+  text-decoration: underline; /* Add underline on hover */
 }
