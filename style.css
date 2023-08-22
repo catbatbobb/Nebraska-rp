@@ -68,7 +68,7 @@ nav a:hover {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #ed5d4f; /* Dark blue color for section titles */
+  color: #7e5424; /* Dark blue color for section titles */
 }
 
 /* Table styles */
@@ -80,13 +80,13 @@ table {
 }
 
 th, td {
-  border: 1px solid #ed5d4f; /* Dark blue borders for table cells */
+  border: 1px solid #7e5424; /* Dark blue borders for table cells */
   padding: 10px;
   text-align: left;
 }
 
 th {
-  background-color: #ed5d4f; /* Dark blue background for table header cells */
+  background-color: #7e5424; /* Dark blue background for table header cells */
   color: #ffffff; /* White text color for table header cells */
 }
 
